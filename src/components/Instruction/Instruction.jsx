@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Instruction = () => <p>instruction</p>;
+const Instruction = ({instruction}) => <p>{instruction}</p>;
 
 export default Instruction;

@@ -1,10 +1,11 @@
-import React from 'react';
-import Ingredient from '../Ingredient';
+import React from "react";
+import Ingredient from "../Ingredient";
 
-const IngredientsList = () => {
-  const recipeArr = [];
-  recipeArr.push(<Ingredient />);
-  return <ul>{recipeArr}</ul>;
+const IngredientsList = ({ ingredients }) => {
+  const ingredientsArr = ingredients.map(item => (
+    <Ingredient key={`${item + Math.random()}`} ingredient={item} />
+  ));
+  return <ul>{ingredientsArr}</ul>;
 };
 
 export default IngredientsList;
