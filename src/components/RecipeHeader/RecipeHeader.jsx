@@ -1,5 +1,5 @@
 import React from 'react';
 
-const RecipeHeader = () => <li>ingredient</li>;
+const RecipeHeader = () => <p>Name</p>;
 
 export default RecipeHeader;
