@@ -3,13 +3,14 @@
 }
 
 .App {
-  background-color: #282c34;
+  background: linear-gradient(
+    45deg,
+    rgb(243, 239, 21),
+    rgb(0, 152, 133),
+    rgb(0, 152, 133),
+    rgb(0, 152, 133)
+  );
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-

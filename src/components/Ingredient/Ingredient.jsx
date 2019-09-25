@@ -1,5 +1,7 @@
 import React from 'react';
 
-const RecipeHeader = () => <li>ingredient</li>;
+import './Ingredient.css';
+
+const RecipeHeader = () => <li className="ingredient">ingredient</li>;
 
 export default RecipeHeader;

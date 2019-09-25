@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06293974-a354-41a6-a4ce-5a1bfbfc17ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/IngredientsList/IngredientsList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Instruction/Insturction.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RecipeHeader/RecipeHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RecipesList/RecipesList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Ingredient/Ingredient.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecipeHeader/RecipeHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecipesList/RecipeList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ingredient/Ingredient.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ingredient/Ingredient.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IngredientsList/IngredientsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IngredientsList/IngredientsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecipeHeader/RecipeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecipeHeader/RecipeHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecipesList/RecipesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecipesList/RecipesList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/App/App.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569317031196</updated>
       <workItem from="1569317032349" duration="3969000" />
-      <workItem from="1569406984955" duration="3573000" />
+      <workItem from="1569406984955" duration="7190000" />
     </task>
     <servers />
   </component>
