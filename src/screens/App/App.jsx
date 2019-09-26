@@ -1,7 +1,6 @@
-import React from 'react';
-import './App.css';
-import RecipesList from '../../components/RecipesList';
-
+import React from "react";
+import "./App.css";
+import RecipesList from "../../components/RecipesList";
 
 function App() {
   return (

@@ -5,8 +5,16 @@ import IngredientsList from "../IngredientsList";
 import Instruction from "../Instruction";
 import "./Recipe.css";
 
-const Recipe = ({ props: { dishName, ingredients, instruction } }) => (
+const Recipe = ({
+  props: { dishName, ingredients, instruction, id },
+  removeRecipe
+}) => (
   <li className="recipe">
+    <button
+      className="recipe-delete fas fa-times-circle"
+      onClick={() => removeRecipe(id)}
+    >
+    </button>
     <RecipeHeader dishName={dishName} />
     <IngredientsList ingredients={ingredients} />
     <Instruction instruction={instruction} />

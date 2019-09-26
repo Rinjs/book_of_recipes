@@ -1,8 +1,22 @@
 .recipe {
-  width: 28%;
+  max-width: 400px;
+  min-width: 250px;
   margin-bottom: 20px;
   list-style: none;
   background: #18a17a;
   padding: 0 20px;
   border-radius: 40px 0;
+  position: relative;
+}
+.recipe-delete {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.recipe-delete:hover {
+  color: black;
 }
