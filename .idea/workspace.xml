@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06293974-a354-41a6-a4ce-5a1bfbfc17ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/router/Router.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Recipe/Recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecipesList/RecipeList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/RecipeList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecipesList/RecipesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/RecipesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecipesList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,16 +49,17 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\vlady\AppData\Roaming\npm\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\book_of_recipes\src\components" />
+      <recent name="D:\book_of_recipes\src\screens" />
+      <recent name="D:\book_of_recipes\src\components\App" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\book_of_recipes\src\components\RecipesList" />
       <recent name="D:\book_of_recipes\src\components\RecipeHeader" />
       <recent name="D:\book_of_recipes\src\components\Recipe" />
       <recent name="D:\book_of_recipes\src\components\Instruction" />
       <recent name="D:\book_of_recipes\src\components\IngredientsList" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\book_of_recipes\src\screens" />
-      <recent name="D:\book_of_recipes\src\components\App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,6 +101,8 @@
       <updated>1569317031196</updated>
       <workItem from="1569317032349" duration="3969000" />
       <workItem from="1569406984955" duration="20777000" />
+      <workItem from="1569569756033" duration="1058000" />
+      <workItem from="1569846635383" duration="1731000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
-import Recipe from "../Recipe";
+import Recipe from "../../components/Recipe";
 import "./RecipeList.css";
+import {Link} from "react-router-dom";
 
 const RecipesList = () => {
   const [recipes, setRecipes] = useState([
@@ -35,7 +36,14 @@ const RecipesList = () => {
       removeRecipe={removeRecipe}
     />
   ));
-  return <ul className="recipes-list">{recipesArr}</ul>;
+  return (
+    <ul className="recipes-list">
+      {recipesArr}
+      <li>
+        <Link to="/create-recipe" className="fas fa-plus-circle"></Link>
+      </li>
+    </ul>
+  );
 };
 
 export default RecipesList;

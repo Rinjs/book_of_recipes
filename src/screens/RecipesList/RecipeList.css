@@ -6,3 +6,10 @@
   flex-wrap: wrap;
   max-width: 1200px;
 }
+.recipes-list li:last-child {
+  list-style: none;
+}
+.recipes-list li:last-child a {
+  font-size: 60px;
+  color: white;
+}
