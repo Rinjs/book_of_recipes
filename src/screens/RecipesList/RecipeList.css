@@ -1,15 +1,16 @@
 .recipes-list {
   padding: 50px 0 0 0;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .recipes-list li:last-child {
   list-style: none;
+  clear: both;
 }
 .recipes-list li:last-child a {
   font-size: 60px;
-  color: white;
+  margin-left: 50px;
 }
+
