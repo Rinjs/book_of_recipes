@@ -7,14 +7,13 @@ import "./Recipe.css";
 
 const Recipe = ({
   props: { dishName, ingredients, instruction, id },
-  removeRecipe
+  RemoveRecipe
 }) => (
   <li className="recipe">
     <button
       className="recipe-delete fas fa-times-circle"
-      onClick={() => removeRecipe(id)}
-    >
-    </button>
+      onClick={() => RemoveRecipe(id)}
+    ></button>
     <RecipeHeader dishName={dishName} />
     <IngredientsList ingredients={ingredients} />
     <Instruction instruction={instruction} />

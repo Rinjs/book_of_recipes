@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./CreateRecipe.css";
+import { connect } from "react-redux";
+import { AddNewRecipe } from "../../redux/actions/newrecipe-action";
 
-const CreateRecipe = () => {
+const CreateRecipe = ({ AddNewRecipe }) => {
   const [recipeName, setRecipeName] = useState("");
   const [recipeInstruction, setRecipeInstruction] = useState("");
   const [ingredientsArr, setIngredientsArr] = useState([]);
@@ -11,7 +13,8 @@ const CreateRecipe = () => {
     <input
       placeholder="1."
       key={Math.random()}
-      onChange={event => setIngredientsArr([...ingredientsArr, event.target.value])
+      onChange={event =>
+        setIngredientsArr([...ingredientsArr, event.target.value])
       }
     />
   ]);
@@ -50,7 +53,12 @@ const CreateRecipe = () => {
           placeholder="Enter how to cook this dish"
           onChange={event => setRecipeInstruction(event.target.value)}
         />
-        <button>Submit</button>
+        <button
+          onClick={() => AddNewRecipe(recipeName, recipeInstruction, ingredientsArr)
+          }
+        type="button">
+          Submit
+        </button>
       </form>
       <Link to="/">
         <i className="fas fa-backward"></i> back
@@ -59,4 +67,15 @@ const CreateRecipe = () => {
   );
 };
 
-export default CreateRecipe;
+const mapDispatchToProps = dispatch => {
+  return {
+    AddNewRecipe: (recipeName, recipeInstruction, ingredientsArr) => {
+      dispatch(AddNewRecipe(recipeName, recipeInstruction, ingredientsArr));
+    }
+  };
+};
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(CreateRecipe);

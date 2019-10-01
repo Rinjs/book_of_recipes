@@ -1,39 +1,16 @@
-import React, { useState } from "react";
-
-import Recipe from "../../components/Recipe";
+import React from "react";
 import "./RecipeList.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import Recipe from "../../components/Recipe";
+import { RemoveRecipe } from "../../redux/actions/recipe-action";
 
-const RecipesList = () => {
-  const [recipes, setRecipes] = useState([
-    {
-      dishName: "Dryaniki",
-      ingredients: ["Bylba", "yaca", "myka"],
-      instruction: "beresh i zharizh",
-      id: `${Math.random()}`
-    },
-    {
-      dishName: "Makaroni po flotski",
-      ingredients: ["Makaroni", "Myaso", "Soys"],
-      instruction: "varish makaroni, zharish myaso, meshaesh s soysom , gotovo",
-      id: `${Math.random()}`
-    },
-    {
-      dishName: "Blini",
-      ingredients: ["myka", "yaca", "moloko"],
-      instruction: "delaesh testo poto zharish",
-      id: `${Math.random()}`
-    }
-  ]);
-  const removeRecipe = id => {
-    const arr = recipes.filter(item => item.id !== id);
-    setRecipes(arr);
-  };
+const RecipesList = ({ recipes, RemoveRecipe }) => {
   const recipesArr = recipes.map(item => (
     <Recipe
       key={`${item.dishName + Math.random()}`}
       props={item}
-      removeRecipe={removeRecipe}
+      RemoveRecipe={RemoveRecipe}
     />
   ));
   return (
@@ -46,4 +23,19 @@ const RecipesList = () => {
   );
 };
 
-export default RecipesList;
+const mapStateToProps = state => ({
+  recipes: state
+});
+
+const mapDispatchToProps = dispatch => {
+  return {
+    RemoveRecipe: id => {
+      dispatch(RemoveRecipe(id));
+    }
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(RecipesList);
