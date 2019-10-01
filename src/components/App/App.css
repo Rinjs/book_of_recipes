@@ -5,11 +5,16 @@
 button {
   background: none;
   border: none;
+  outline: none;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: black;
 }
 
 .App {

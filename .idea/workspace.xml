@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06293974-a354-41a6-a4ce-5a1bfbfc17ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/store/create-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Whoops404/Whoops404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Whoops404/Whoops404.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Whoops404/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Recipe/Recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/Router.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/CreateRecipe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/RecipesList/RecipeList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/RecipeList.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +98,8 @@
       <workItem from="1569317032349" duration="3969000" />
       <workItem from="1569406984955" duration="20777000" />
       <workItem from="1569569756033" duration="1058000" />
-      <workItem from="1569846635383" duration="9570000" />
+      <workItem from="1569846635383" duration="10207000" />
+      <workItem from="1569920154776" duration="8679000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,3 @@
-import CreateRecipe from "./CreateRecipe.jsx";
+import CreateRecipe from './CreateRecipe';
 
 export default CreateRecipe;

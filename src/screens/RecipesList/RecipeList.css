@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.recipes-list li:last-child {
+.recipes-list > li:last-child {
   list-style: none;
   clear: both;
 }

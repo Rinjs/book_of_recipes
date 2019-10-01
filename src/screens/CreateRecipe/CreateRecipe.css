@@ -1,3 +1,7 @@
+.create-recipe {
+  max-width: 600px;
+  margin: 0 auto;
+}
 .create-recipe-form {
   padding: 10px 0;
   display: flex;
@@ -12,7 +16,6 @@
   border: 1px solid black;
   margin-bottom: 5px;
   background: #18a17a;
-  outline: none;
   padding: 0 0 0 10px;
   color: white;
   font-size: 20px;
@@ -50,7 +53,7 @@
 }
 
 .create-recipe a {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .create-recipe-form button {
@@ -67,5 +70,3 @@
   color: black;
   transition: padding 0.3s;
 }
-
-
