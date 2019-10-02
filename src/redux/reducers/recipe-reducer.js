@@ -7,15 +7,13 @@ export default function recipeReducer(state = initialState, action) {
       return state.filter(item => item.id !== action.id);
     }
     case c.ADD_NEW_RECIPE: {
-      return [
-        ...state,
-        {
-          dishName: action.recipeName,
-          ingredients: action.ingredientsArr,
-          instruction: action.recipeInstruction,
-          id: action.id
-        }
-      ];
+      const recipe = {
+        dishName: action.recipeName,
+        ingredients: action.ingredientsArr,
+        instruction: action.recipeInstruction,
+        id: action.id
+      };
+      return [...state, recipe];
     }
     default:
       return state;

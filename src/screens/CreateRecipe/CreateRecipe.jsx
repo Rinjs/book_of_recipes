@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import "./CreateRecipe.css";
 import { connect } from "react-redux";
 import { AddNewRecipe } from "../../redux/actions/newrecipe-action";
 
-const CreateRecipe = ({ AddNewRecipe }) => {
+const CreateRecipe = ({ addNewRecipe }) => {
   const [recipeName, setRecipeName] = useState("");
   const [recipeInstruction, setRecipeInstruction] = useState("");
   const [ingredientsArr, setIngredientsArr] = useState([]);
+  const [redirect, setRedirect] = useState(false);
 
   const [inputArr, setNewInput] = useState([
     <input
@@ -19,9 +20,27 @@ const CreateRecipe = ({ AddNewRecipe }) => {
     />
   ]);
 
+  const onSubmit = event => {
+    event.preventDefault();
+    if (!recipeName || !recipeInstruction || !ingredientsArr.length) {
+      alert(
+        !recipeName
+          ? "Please enter a name for the dish"
+          : !ingredientsArr.length
+          ? "Please enter ingredients"
+          : "Please enter a cooking method"
+      );
+      return false;
+    }
+    addNewRecipe(recipeName, recipeInstruction, ingredientsArr);
+    setRedirect(true);
+  };
+  if (redirect) {
+    return <Redirect to="/" />;
+  }
   return (
     <div className="create-recipe">
-      <form action="" className="create-recipe-form">
+      <form onSubmit={onSubmit} className="create-recipe-form">
         <input
           placeholder="Enter dish name"
           onChange={event => setRecipeName(event.target.value)}
@@ -53,12 +72,7 @@ const CreateRecipe = ({ AddNewRecipe }) => {
           placeholder="Enter how to cook this dish"
           onChange={event => setRecipeInstruction(event.target.value)}
         />
-        <button
-          onClick={() => AddNewRecipe(recipeName, recipeInstruction, ingredientsArr)
-          }
-        type="button">
-          Submit
-        </button>
+        <button>Submit</button>
       </form>
       <Link to="/">
         <i className="fas fa-backward"></i> back
@@ -69,7 +83,7 @@ const CreateRecipe = ({ AddNewRecipe }) => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    AddNewRecipe: (recipeName, recipeInstruction, ingredientsArr) => {
+    addNewRecipe: (recipeName, recipeInstruction, ingredientsArr) => {
       dispatch(AddNewRecipe(recipeName, recipeInstruction, ingredientsArr));
     }
   };

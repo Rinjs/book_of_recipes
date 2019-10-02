@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06293974-a354-41a6-a4ce-5a1bfbfc17ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/const/action-const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/newrecipe-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/recipe-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/initial-state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/recipe-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recipe/Recipe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store/create-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store/create-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/recipe-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/recipe-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CreateRecipe/CreateRecipe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/RecipesList/RecipesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/RecipesList.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
