@@ -6,6 +6,11 @@ button {
   background: none;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 0;
 }
 
 a {

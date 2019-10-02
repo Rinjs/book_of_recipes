@@ -10,6 +10,9 @@
   float: left;
   margin-left: 20px;
 }
+.recipe p {
+  margin: 15px 0;
+}
 .recipe-delete {
   position: absolute;
   right: 0;
